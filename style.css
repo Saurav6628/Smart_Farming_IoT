@@ -1,0 +1,29 @@
+.body
+{
+    display: flex;
+    flex-direction: row;
+}
+.login
+{
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.intro
+{
+    display: inline-block;
+    /* border:1px solid red; */
+    height:99.9vh;
+    width: 70vw;
+    background-image: url('WhatsApp Image 2023-09-05 at 4.20.59 PM.jpeg');
+    background-size: cover;
+    
+}
+#logo
+{
+    height: 20vh;
+    width: 20vh;
+
+}

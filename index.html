@@ -1,0 +1,36 @@
+<!doctype html>
+<head>
+    <title>This is LogIn Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+</head>
+
+<body class="body">
+    <div class="login">
+        <div class="logo">
+            <img src="National_Institute_of_Technology,_Hamirpur_Logo.png" alt="" id="logo">
+        </div>
+        <h2>LOGIN</h2>
+        <div id="login-content">
+            <form class="pure-form" method="POST" action="/">
+                Name:<br>
+                <input type="text" name="username"><br>
+                Password:<br>
+                <input type="password" name="password"><br>
+                <button type="submit" class="pure-button pure-button-primary" value="Submit">Submit</button>
+            </form>
+        </div>
+        <div>{% if name%}
+            <p>Invalid User Name or Password</p>
+        {% endif %}</div>
+        
+    </div>
+    <div class="intro" >
+        <!-- <img src="WhatsApp Image 2023-09-05 at 4.20.59 PM.jpeg" id="bgimage"> -->
+        
+    </div>
+</body>
+</html>
+
+
+
